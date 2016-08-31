@@ -1,0 +1,81 @@
+body {
+  font-size: 20px;
+}
+
+fieldset {
+    display:inline-block;
+	background: white;    
+    border-style:none;   
+}
+
+body {
+    background-image: url("res/background.jpg");
+    background-repeat: repeat;
+}
+
+.logo{
+    z-index: 10;
+	display:inline-block;
+	width: 250px;
+	height: 250px;
+    margin-left: 120px;
+    margin-right: auto; 
+}
+
+.motto{
+    display: inine-block;
+	width: 500px;	
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.lm{
+    display:inline-block;
+	background-color: white;
+	width: 500px;
+	margin-top: 25px;
+	margin-left: 50px;
+    padding-top: 30px;
+    border-style: solid;
+    border-color: #A68572;
+}
+
+form{
+    position:absolute;
+    top:25px;
+    right:300px;
+    display: inline-block;	
+    border-style: solid;
+    border-color: #8D7679;
+    background: white;
+    width: 200px;    
+    padding:25px; 
+}
+
+.cart{
+    width:5%;
+}
+
+.form
+            {   background: white;
+                width: 115px;
+                height: 70px;
+                margin-top: -6%;
+                margin-left: 50px;
+            }
+
+            table, th, td 
+            {
+                border: 1px solid #708090;
+                border-collapse: collapse;
+                margin-left: 12%;
+                margin-top: 15%;
+            }
+
+            th, td 
+            { 
+                padding: 10%;
+                font-size: 100%;
+                text-align: center;
+                color: #708090;
+            }

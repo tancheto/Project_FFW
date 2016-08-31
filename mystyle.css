@@ -1,0 +1,314 @@
+  .moto
+            {
+                border: solid;
+                border-color: #5d4b31;
+                border-width: 2px;
+                width: 510px;
+                height:75px;
+                text-align: center;
+                margin-left: 38%;
+                margin-top: 2%;
+            }
+            body 
+            {
+                background-image:url("res/background.jpg");
+            }
+            .form
+            {   background: white;
+                border: solid;
+                border-color: #5d4b31;
+                border-width: 2px;
+                width: 115px;
+                height: 110px;
+                margin-top: -6%;
+                margin-left: 89.5%;
+            }
+            table, th, td 
+            {
+                border: 1px solid #708090;
+                border-collapse: collapse;
+                margin-left: 12%;
+                margin-top: 15%;
+            }
+            th, td 
+            { 
+                padding: 10%;
+                font-size: 111%;
+                text-align: center;
+                color: #708090;
+            }
+            .logo
+            {
+                border: 2px solid #5d4b31;
+                border-collapse: collapse;
+                width: 280px;
+                height: 245px;
+                background-color: #FFFFFF;
+                padding: 1%;
+                margin-top: -8.5%;
+                margin-left: 2%;
+            }
+            .biginfo 
+            {
+                width: 1105px;
+                height: auto;
+                background-color: #FFFFFF;
+                border: solid;
+                border-color: #5d4b31;
+                border-width: 2px;
+                margin-left: 8%;
+                margin-top: -10%;
+            }
+
+          
+
+            .search
+            {
+                border: solid;
+                border-color: #708090;
+                border-width: 1px;
+                border-bottom: 1px solid #797676;
+                width: 73%;
+                height: 30px;
+                margin-left: 22%;
+                margin-top: 3%;
+                font-size: 25px;
+                padding: 1%;
+                color: #708090;
+            }
+
+            
+
+            .allbreeds
+            {
+                border: solid;
+                border-color: #708090;
+                border-width: 1px;
+                border-top: 1px solid #797676;
+                width: 17.5%;
+                height: 30px;
+                margin-left: 79%;
+                margin-top: -50px;
+                padding-top: 6px;
+                padding-bottom: 4px;
+            }
+
+
+            .words-allbreeds
+            {
+                font-size: 24px;
+                color: #708090;
+                margin-left: 15%;
+            }
+            .dropArrow
+            {
+                font-size: 20px;
+                color: #708090;
+                margin-left: 16%;
+                margin-bottom: 2px;
+            }
+            .dropdown 
+            {
+                position: relative;
+                display: inline-block;
+                
+            }
+            .dropdown-content 
+            {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .dropdown-content a 
+            {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover 
+            {
+                background-color: #f1f1f1;
+            }
+
+            .dropdown:hover .dropdown-content 
+            {
+                display: block;
+            }
+
+            .dropdown:hover .dropArrow
+            {
+                background-color: #dba898;
+            }
+
+            .welcome{
+                color:#8d7679;
+                margin-left: 43%;
+                margin-top:3%;
+                font-size: 200%;
+            }
+
+            .title{
+                color:#8d7679;
+                text-align:center;
+                margin-left:-100px;
+                margin-top:10%;
+                font-size: 100%;
+
+            }
+
+h1 {
+	margin-left: 16%;
+}
+
+a{
+    color: #8d7679;
+}
+
+.block1 {
+	margin-top: 40px;
+	margin-left: 6%;
+	float: left;
+}
+
+
+.aboutme {
+	
+	margin-top: 20px;
+	font-size: 25px;
+	color:#8d7679;
+	padding: 20px;
+	padding-left: 15px;
+	border: 2px solid #8d7679;
+	
+}
+
+
+.block2 {
+	float: left;
+	border: 2px solid #8d7679;
+	width: 45%;
+	position: relative;
+	left:5%;
+	padding: 40px;
+	padding-top:0;
+    margin-top: 60px;
+
+}
+
+.blocks2{
+border: 2px solid #8d7679;
+margin-top: 35px;
+height: 195px;
+}
+
+.kittens {
+	float: left;
+	height: 195px;
+	width: auto;
+}
+
+.kitteninfo {
+    
+    margin-left:10px;
+	padding-top: 40px;
+	float: right;
+    position: relative;
+    right:10%;
+}
+
+.fancytext{
+	font-size: 18px;
+	color:#8d7679;
+}
+
+.cart{
+    width:4%;
+    border: solid;
+    border-color: #8d7679;
+    border-width: 2px;
+    padding:10px;
+    position:absolute;
+    right:250px;
+    top:300px;
+}
+
+.badge{
+    padding:5px;
+    border: solid;
+    border-width: 2px;
+    color:#8d7679;
+    position:absolute;
+    right:250px;
+    top:380px;
+}
+
+.menu{
+    z-index:3;
+    color:#8d7679;
+    border: solid;
+    border-color: #8d7679;
+    border-width: 2px;
+    background-color: white;
+    width:7%;
+    padding:20px;
+    list-style-type: none;
+    position:fixed;
+    left:35px;
+    bottom:105px;
+    font-size:12px;
+}
+
+.table{
+
+    width:500px;
+}
+
+/*********************************************************************************/
+
+
+
+.kittenimg{
+    display:inline-block;    
+    border:solid #8d7679;
+    border-width:2px;   
+    width:100%;
+}
+
+#pagebar{
+margin-left: 4%;
+font-size: 25px;
+margin-bottom: 50px;
+}
+
+.table_cats{
+    width:1000px;    
+    margin-left:70px;
+    text-align: left;
+    color: gray; 
+    margin-bottom: 50px; 
+
+}
+
+.table_cats td { 
+    padding: 10px;
+}
+
+.alert{
+	text-align: center;
+	font-size: 20px;
+	margin-top:40px;
+	margin-bottom: -100px;
+}
+
+.info{
+
+	text-align: center;
+	font-size: 20px;
+	margin-top:150px;
+	margin-bottom:50px;
+
+}
